@@ -21,24 +21,30 @@ conda install -c conda-forge python-telegram-bot
 ```
 
 ## Steps to get Telegram bot and Token
+
 ***Step 1:*** After opening Telegram, in the search bar search for **“BotFather”**
-[<img  src="https://github.com/itsRajatkumar/TelegramBot/blob/main/Images/bfsearch.JPG"/>]
+</br>
+<img  src="https://github.com/itsRajatkumar/TelegramBot/blob/main/Images/bfsearch.JPG"/>
 
 
 ***Step 2:*** Click on the ‘BotFather’ and type **/newbot**
-[<img src="https://github.com/itsRajatkumar/TelegramBot/blob/main/Images/newbot.JPG"/>]
+</br>
+<img src="https://github.com/itsRajatkumar/TelegramBot/blob/main/Images/newbot.JPG"/>
 
 
 ***Step 3:*** Give a name to your bot. like 'mybot' 'telegram bot'
-[<img  src="https://github.com/itsRajatkumar/TelegramBot/blob/main/Images/name.JPG"/>]
+</br>
+<img  src="https://github.com/itsRajatkumar/TelegramBot/blob/main/Images/name.JPG"/>
 
 ***Step 4:*** Botfather will ask for its username. Then give a unique name BUT remember the username of your bot must end with the bot, like my_bot, Rajatbot etc.
-[<img  src="https://github.com/itsRajatkumar/TelegramBot/blob/main/Images/uniquebot.JPG"/>]
+</br>
+<img  src="https://github.com/itsRajatkumar/TelegramBot/blob/main/Images/uniquebot.JPG"/>
 
 
 ***Step 5:*** After giving a unique name and if it gets accepted if not then give other name and then you will get a message like this –
-[<img  src="https://github.com/itsRajatkumar/TelegramBot/blob/main/Images/api.JPG"/>]
-
+</br>
+<img  src="https://github.com/itsRajatkumar/TelegramBot/blob/main/Images/api.JPG"/>
+</br>
 Here the token value will be different for you, we will use this token in our python code to make changes in our bot and make it just like we want.
 
 
