@@ -63,12 +63,10 @@ from telegram.ext.filters import Filters
 ***Step 2: Define functions for operation***
 **Start function:** It will display the first conversation, the message inside it will be sent to the user whenever they press ‘start’ at the very beginning.
 ```python
-updater = Updater("your_own_API_Token got from BotFather",
-				use_context=True)
+updater = Updater("your_own_API_Token got from BotFather", use_context=True)
 
 def start(update: Update, context: CallbackContext):
-	update.message.reply_text(
-		"Enter the text you want to show to the user whenever they start the bot")
+	update.message.reply_text("Enter the text you want to show to the user whenever they start the bot")
 ```
 
 **Help function:** It is basically in this function you should add any kind of help the user, All the commands your bot understands, The information related to the bot, etc
@@ -88,33 +86,27 @@ def help(update: Update, context: CallbackContext):
 ```python
 
 def github_url(update: Update, context: CallbackContext):
-	update.message.reply_text("GitHub Profile =>\
-	https://www.github.com/itsrajatkumar")
+	update.message.reply_text("GitHub Profile =>\https://www.github.com/itsrajatkumar")
 
 
 def instagram_url(update: Update, context: CallbackContext):
-	update.message.reply_text("Instagram Profile =>\
-	https://www.instagram.com/thisisrajatkumar")
+	update.message.reply_text("Instagram Profile =>\https://www.instagram.com/thisisrajatkumar")
 
 
 def linkedIn_url(update: Update, context: CallbackContext):
-	update.message.reply_text("LinkedIn Profile =>\
-	https://www.linkedin.com/in/thisisrajatkumar")
+	update.message.reply_text("LinkedIn Profile =>\https://www.linkedin.com/in/thisisrajatkumar")
 
 
 def website_url(update: Update, context: CallbackContext):
-	update.message.reply_text("Website Profile =>\
-	https://www.rajatkumar.tech")
+	update.message.reply_text("Website Profile =>\https://www.rajatkumar.tech")
 
 
 def unknown_text(update: Update, context: CallbackContext):
-	update.message.reply_text(
-		"Sorry I can't recognize you , you said '%s'" % update.message.text)
+	update.message.reply_text("Sorry I can't recognize you , you said '%s'" % update.message.text)
 
 
 def unknown(update: Update, context: CallbackContext):
-	update.message.reply_text(
-		"Sorry '%s' is not a valid command" % update.message.text)
+	update.message.reply_text("Sorry '%s' is not a valid command" % update.message.text)
 ```
 
 ***Step 3:*** Adding the Handlers to handle our messages and commands
